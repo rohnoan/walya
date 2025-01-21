@@ -52,8 +52,8 @@ const Products = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-5 gap-8">
           {products.map((product) => (
-            <div key={product.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src={product.image} alt={product.name} className="h-full  object-cover" />
+            <div key={product.id} className="bg-white sm:h-full  h-1/2 flex sm:block rounded-lg shadow-lg overflow-hidden">
+              <img src={product.image} alt={product.name} className="h-full flex   object-cover" />
               <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold text-[#01204E]">{product.name}</h3>
                 <p className="text-sm text-gray-600 mt-2">{product.description}</p>
