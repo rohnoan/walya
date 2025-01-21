@@ -139,7 +139,7 @@ const FeaturesAnimations = () => {
   return (
     <div className="sm:h-screen mb-[100px]   sm:mb-[-100px] mt-[100px] h-[400px] flex flex-col sm:pt-0 pt-[-300px] items-center justify-center rounded-lg pb-[-500px] sm:pb-[100px] bg-[#F6DCAC] mx-4 sm:mx-10">
       <div
-        className="t text-2xl  sm:mt-5 sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-700 mb-0"
+        className="t text-4xl  sm:mt-5 sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-blue-700 mb-0"
         
       >
         WALYA'S GOTI SODA HAS  
@@ -155,7 +155,7 @@ const FeaturesAnimations = () => {
                 key={feature.id}
                 onClick={() => handleFeatureClick(index)}
                 className={`absolute cursor-pointer transition-all duration-500 transform
-                  ${index === currentIndex ? 'z-10 mb-16  sm:mb-20' : 'rounded-lg text-white mt-8 sm:mt-12 bg-black border-2 scale-[0.4] sm:scale-50'}`}
+                  ${index === currentIndex ? 'z-10 mb-16  sm:mb-20' : 'rounded-lg text-white mt-8 sm:mt-12 bg-black border-2 scale-125 sm:scale-50'}`}
                 style={{
                   transform: `translateX(${position * (windowWidth < 640 ? 150 : 200)}px)`,
                   opacity: Math.abs(position) > 2 ? 0 : 1,
