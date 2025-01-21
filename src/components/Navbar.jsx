@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-b bg-red-600">
+    <nav className="border-y-4 border-black bg-red-600">
       <div className="flex h-20 items-center px-4 max-w-7xl mx-auto">
         <div className="flex items-center">
           <a href="/" className="py-10 h-max">
@@ -24,12 +24,13 @@ export default function Navbar() {
           <a href="/" className="text-xl border-2 hover:scale-110  border-[#01204E] p-2 text-[#01204E] bg-white font-extrabold  rounded-xl transition-colors hover:text-primary">
             HOME
           </a>
-          <a href="/about" className="text-xl hover:scale-110 border-2 border-[#01204E] p-2 text-[#01204E] bg-white rounded-xl font-extrabold transition-colors hover:text-primary">
-            ABOUT US
-          </a>
           <a href="/products" className="text-xl hover:scale-110 border-2 border-[#01204E] p-2 text-[#01204E] bg-white rounded-xl font-extrabold transition-colors hover:text-primary">
             PRODUCTS
           </a>
+          <a href="/about" className="text-xl hover:scale-110 border-2 border-[#01204E] p-2 text-[#01204E] bg-white rounded-xl font-extrabold transition-colors hover:text-primary">
+            ABOUT US
+          </a>
+          
         </div>
 
         {/* Mobile Navigation */}

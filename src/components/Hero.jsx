@@ -1,23 +1,22 @@
-import React from 'react'
-import logo from '../assets/logo.png'
-import Carousel from './Carousel'
+import React from 'react';
+import Carousel from './Carousel';
 
 export default function Hero() {
   return (
-    <div className='text-4xl'>
-      <div className='flex font-mono my-4 items-center justify-center'>
-         WALYA'S GOTI SODA  
+    <div className='bg-[#F6DCAC] '>
+      <div className='flex mt-10 bg-white border-2 border-black  justify-center text-center font-extrabold text-blue-700 text-2xl '>
+        INTRODUCING 
       </div>
-      <div className='flex my-4 items-center justify-center'>
-        JUST <div className='mx-16 text-pink-500 font-extrabold scale-150'>POP</div> IT
+      <div className="flex   mt-2 mb-2 font-bold  text-red-600  justify-center text-7xl text-center">
+        WALYA'S GOTI SODA
       </div>
-      <div className='text-sm flex text-center justify-center'>
-       a fizzy delight in every sip, crafted with love and natural ingredients!
+      <div className='flex bg-white border-2 border-black  justify-center text-center font-extrabold text-blue-700 text-2xl '>
+        EXPERIENCE THE BURST OF REFRESHMENT 
       </div>
-      <div className='flex justify-center items-center my-4'>
-        MEET OUR DRINKS
-      </div>
+      <div className='mt-10'>
       <Carousel/>
+
+      </div>
     </div>
-  )
+  );
 }
