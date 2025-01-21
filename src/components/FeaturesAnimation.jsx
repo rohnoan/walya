@@ -155,7 +155,7 @@ const FeaturesAnimations = () => {
                 key={feature.id}
                 onClick={() => handleFeatureClick(index)}
                 className={`absolute cursor-pointer transition-all duration-500 transform
-                  ${index === currentIndex ? 'z-10 mb-16  sm:mb-20' : 'rounded-lg text-white mt-8 sm:mt-12 bg-black border-2 scale-125 sm:scale-50'}`}
+                  ${index === currentIndex ? 'z-10 mb-16  sm:mb-20' : 'rounded-lg text-white mt-8 sm:mt-12 bg-black border-2 scale-125 '}`}
                 style={{
                   transform: `translateX(${position * (windowWidth < 640 ? 150 : 200)}px)`,
                   opacity: Math.abs(position) > 2 ? 0 : 1,
@@ -184,14 +184,12 @@ const FeaturesAnimations = () => {
       {/* Mobile Feature Display (only show when nav bar is hidden) */}
       <div className="lg:hidden text-center mb-4">
         <div
-          className="text-transparent text-xl sm:text-2xl font-bold bg-clip-text mb-2"
-          style={{
-            backgroundImage: "linear-gradient(to right, #7DD6FF, #2D79FC)",
-          }}
+          className=" text-4xl sm:text-4xl text-black font-bold  mb-2"
+          
         >
           {featuresArray[currentIndex].name}
         </div>
-        <span className="text-sm font-medium text-gray-600">
+        <span className="text-3xl font-medium text-gray-600">
           {currentIndex + 1} / {featuresArray.length}
         </span>
       </div>
