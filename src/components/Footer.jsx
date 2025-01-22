@@ -13,7 +13,7 @@ import React from 'react'
                     <li><a href="/" className="hover:underline">Home</a></li>
                     <li><a href="/about" className="hover:underline">About Us</a></li>
                     <li><a href="/products" className="hover:underline">Products</a></li>
-                    <li><a href="/contact" className="hover:underline">Contact Us</a></li>
+                    
                   </ul>
                 </div>
       
@@ -21,9 +21,9 @@ import React from 'react'
                 <div>
                   <h3 className="font-semibold text-lg mb-4">Contact</h3>
                   <ul>
-                    <li>Email: <a href="mailto:support@walyasgotisoda.com" className="hover:underline">support@walyasgotisoda.com</a></li>
-                    <li>Phone: <a href="tel:+1234567890" className="hover:underline">+1 (234) 567-890</a></li>
-                    <li>Address: 123 Soda St, Refreshment City, RC 12345</li>
+                    <li>Email: <a href="mailto:support@walyasgotisoda.com" className="hover:underline">suryanjalient@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+1234567890" className="hover:underline">+91-22-46039453</a></li>
+                    <li>Address: Survey No. 16/4A , House No.816, Kalyan Pagda-Sape Road,Bhiwandi, Maharashtra-421302.</li>
                   </ul>
                 </div>
       
@@ -31,18 +31,8 @@ import React from 'react'
                 <div>
                   <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
                   <div className="flex gap-4">
-                    <a href="https://facebook.com" className="hover:text-blue-500">
-                      <i className="fab fa-facebook-f"></i> {/* Replace with actual icon */}
-                    </a>
-                    <a href="https://instagram.com" className="hover:text-pink-500">
-                      <i className="fab fa-instagram"></i> {/* Replace with actual icon */}
-                    </a>
-                    <a href="https://twitter.com" className="hover:text-blue-400">
-                      <i className="fab fa-twitter"></i> {/* Replace with actual icon */}
-                    </a>
-                    <a href="https://linkedin.com" className="hover:text-blue-700">
-                      <i className="fab fa-linkedin-in"></i> {/* Replace with actual icon */}
-                    </a>
+                    <a href="https://www.instagram.com/walyas.in/">Instagram</a>
+                    
                   </div>
                 </div>
       
